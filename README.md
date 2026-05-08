@@ -10,6 +10,10 @@ It intentionally contains common AI-app launch gaps that are safe to publish:
 
 The repository is not a real application and does not contain working credentials. It exists so builders can inspect how Shipcheck reports findings, writes SARIF, and uploads the result into GitHub code scanning.
 
+Code scanning demo:
+
+https://github.com/TateLyman/shipcheck-demo-ai-app/security/code-scanning
+
 ## Run
 
 ```bash
