@@ -1,5 +1,9 @@
 # Shipcheck Demo AI App
 
+[![ci](https://github.com/TateLyman/shipcheck-demo-ai-app/actions/workflows/ci.yml/badge.svg)](https://github.com/TateLyman/shipcheck-demo-ai-app/actions/workflows/ci.yml)
+[![shipcheck](https://github.com/TateLyman/shipcheck-demo-ai-app/actions/workflows/shipcheck.yml/badge.svg)](https://github.com/TateLyman/shipcheck-demo-ai-app/actions/workflows/shipcheck.yml)
+[![GitHub Marketplace](https://img.shields.io/badge/marketplace-Shipcheck%20Action-2ea44f)](https://github.com/marketplace/actions/shipcheck-ai-app-scanner)
+
 This is a tiny demo repository for [Shipcheck](https://github.com/TateLyman/shipcheck-cli).
 
 It intentionally contains common AI-app launch gaps that are safe to publish:
