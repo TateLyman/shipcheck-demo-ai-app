@@ -1,22 +1,20 @@
-# Shipcheck Demo AI App
+# Shipcheck Demo App
 
-[![ci](https://github.com/TateLyman/shipcheck-demo-ai-app/actions/workflows/ci.yml/badge.svg)](https://github.com/TateLyman/shipcheck-demo-ai-app/actions/workflows/ci.yml)
-[![shipcheck](https://github.com/TateLyman/shipcheck-demo-ai-app/actions/workflows/shipcheck.yml/badge.svg)](https://github.com/TateLyman/shipcheck-demo-ai-app/actions/workflows/shipcheck.yml)
-[![GitHub Marketplace](https://img.shields.io/badge/marketplace-Shipcheck%20Action-2ea44f)](https://github.com/marketplace/actions/shipcheck-ai-app-scanner)
+[![ci](https://github.com/TateLyman/shipcheck-demo-app/actions/workflows/ci.yml/badge.svg)](https://github.com/TateLyman/shipcheck-demo-app/actions/workflows/ci.yml)
+[![shipcheck](https://github.com/TateLyman/shipcheck-demo-app/actions/workflows/shipcheck.yml/badge.svg)](https://github.com/TateLyman/shipcheck-demo-app/actions/workflows/shipcheck.yml)
 
 This is a tiny demo repository for [Shipcheck](https://github.com/TateLyman/shipcheck-cli).
 
-It intentionally contains common AI-app launch gaps that are safe to publish:
+It intentionally contains common launch gaps that are safe to publish:
 
 - Supabase client usage without checked-in data-boundary proof
 - a debug API route that should not ship to production
-- an AI provider dependency without an obvious usage cap
 
 The repository is not a real application and does not contain working credentials. It exists so builders can inspect how Shipcheck reports findings, writes SARIF, and uploads the result into GitHub code scanning.
 
 Code scanning demo:
 
-https://github.com/TateLyman/shipcheck-demo-ai-app/security/code-scanning
+https://github.com/TateLyman/shipcheck-demo-app/security/code-scanning
 
 ## Run
 
